@@ -1,4 +1,4 @@
-https://github.com/Mahesh0253/pyrogram/archive/inline.zip
+https://github.com/shivam31635/pyrogram/archive/inline.zip
 TgCrypto
 motor
 aiofiles
