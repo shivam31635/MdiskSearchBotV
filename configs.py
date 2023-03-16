@@ -7,9 +7,9 @@ import os
 class Config(object):
     API_ID = int(os.getenv("API_ID", "25069425"))
     API_HASH = os.getenv("API_HASH", "41034e257e6449615faea5f18bbe1dd7")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "6268661680:AAHuscQ1EkqAa3aKe-yjv0JYGE94fQqQTng")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "6268661680:AAEVBRfKutZXUc9bvNDULStlr8XIbuqCanQ")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "SnMdiskSearchBot")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOMgBu7X6gnuq3B6l3oocRJP75Pow4eT7XsV4OTjxiblRtttZb5KOuXuk0tg71B1Vu-yGBx-8T5fxe2sex31XLgCc4QdPy5GS5yrzjcE9Lbomhuw5wB8funCgsLctdbASYkyKLQALB_OaU8f2mwZj9m1nzprRCqgMHtY4YTbwrHea1QU3rHb7_vAnX00agiFkWmKVUZhKK06ATJPeau4f38pTsrTEtkh63ZKEgpB87uEKth1E3YB15ocFL1lcVaVldtrHnfcciQV6KfxujwhJ28FZp2cozHS4ZB6ZE7RIR1I0SSVvgEfbP4-MqlhLUeBsDNIqT2syzR_jw8mC-evdt6hWcHg=")
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOMgBu2QsHXEJ0tFKkdrgPO0ezqPoU6xxarFXnlxVMj20NAepPBz4jgeboDZ0_UXAlDTz06yrl7q53R-F6FpsBhhF80vY2g8M7vrBRMmOKeUo8f2sNa0-I5r-uOgatkfxzqEcHL5hQsNr1ziKyh7Xp0ThpgL6w_i7i8srmhT3EM0mJrwPzfx904ATIS8WaHNiz1pdaPgAEChebRXD39-gb4EMsZmeLATogGr0QRg2az974Jc_9N6DjU2a97BUZi1dxewFYRGU-G7eTJbX9lkrF7AM-Adk3AmY0fKcq9gfsFNe_pjFKEBgynLFbKU8UwJd1ym5BwIBYuOpeW1u04XT26YwNv8=")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001816598529")) 
     BOT_USERNAME = os.getenv("BOT_USERNAME", "SnMdiskSearchBot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "6133992240"))
