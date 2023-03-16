@@ -10,7 +10,7 @@ class Config(object):
     BOT_TOKEN = os.getenv("BOT_TOKEN", "6252758127:AAGPFDoQaZk-pFtpT0uRE6HgkHnnzPBdgGI")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "SnMdiskSearchBot")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOMgBu0aF0dc-rGe92PB5Xa7rUDWjqwPH70TuI4_jKXKzoXYVgxeUSli-nU3SAbuYPv2vj4nhoBXldOe_UH1xcO7ul5Vh5WT9mka8bKlvJUwQupNdydj6M8gbJ98y_D23xFRub0i70GHlCE4HN1NFa-MZcreEpat4-1mtrQGdS9hfVMh8PAPUHJ4i8K-rpo40JiwTqjLa0JQv4JaW37dAsdioVD2uhopzGwcYFRU6lYZT1O_rUv3JdLzYeRwDDyjNhhlim4u-O0nOmFd22-zqa4oAXMelKXJUVi-0Wsxu6ANhyzI4BAuxAmo-pNqH4TmdwKvZo6LMzqKNknHa8bUQGjL6FZo=")
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001591605945")) 
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-10018166598529")) 
     BOT_USERNAME = os.getenv("BOT_USERNAME", "SnMdiskSearchBot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "6249148586"))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "heartlesssn")
