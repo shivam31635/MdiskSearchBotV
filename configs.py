@@ -5,16 +5,16 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", "21501788"))
-    API_HASH = os.getenv("API_HASH", "930a399122c2f6493061a72f81f95981")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "6283967867:AAEC-yQu9MUrKjL6QqXQOBMmW5LWW7S7pZE")
+    API_ID = int(os.getenv("API_ID", "25069425"))
+    API_HASH = os.getenv("API_HASH", "41034e257e6449615faea5f18bbe1dd7")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "6640222628:AAGu08s4jVBxGBuxQlMs4Im9KKLjpnZd_W0")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "SnMdiskSearchBot")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "")
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001816598529")) 
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "SnMdiskSearchBot")
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001876507111")) 
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "6133992240"))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "heartlesssn")
-    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "snfilmy")
+    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "Crazybotz")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
     START_MSG = os.getenv("START_MSG", """**Hᴇʏ {}, 
 
@@ -23,29 +23,29 @@ I ᴀᴍ Mᴏᴠɪᴇ Sᴇᴀʀᴄʜ Rᴏʙᴏᴛ 🔍.
 I Wɪʟʟ Pʀᴏᴠɪᴅᴇ Eᴠᴇʀʏ Mᴏᴠɪᴇ Iɴ Mᴅɪsᴋ Lɪɴᴋ 🔗
 
 Jᴜsᴛ Tʏᴘᴇ ᴀ Mᴏᴠɪᴇ Nᴀᴍᴇ 🎬**""" ) 
-    START_PHOTO = os.getenv("START_PHOTO", "https://graph.org/file/95a09ea4925cba16a7777.jpg")
+    START_PHOTO = os.getenv("START_PHOTO", "https://graph.org/file/012941e7044afc5311174.jpg")
     HOME_TEXT = os.getenv("HOME_TEXT", """ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕
 
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ʏᴏᴜʀ ʟɪɴᴋꜱ.
 
 ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ✅""" )
-    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001600537706")
+    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001688312074")
     DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://shivam1432:shivam1432@cluster0.1hwgq1z.mongodb.net/?retryWrites=true&w=majority")
-    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001983973154"))
+    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001876507111"))
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 20))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
     UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "snfilmy")
-    FORCE_SUB = os.getenv("FORCE_SUB", "False")
+    FORCE_SUB = os.getenv("FORCE_SUB", "True")
     AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 180))
     MDISK_API = os.getenv("MDISK_API", "kfYIueXGrv0vYGuudFFt")
-    VERIFIED_TIME  = int(os.getenv("VERIFIED_TIME", "31"))
+    VERIFIED_TIME  = int(os.getenv("VERIFIED_TIME", "84"))
     ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT", """I ᴏɴʟʏ ꜱʜᴀʀᴇ ᴛʜᴇ ᴘᴏꜱᴛ ꜰʀᴏᴍ ᴘᴇᴏᴘʟᴇ'ꜱ ᴄʜᴀɴɴᴇʟ! 
 
 ᴡʜᴏ ᴍᴀᴅᴇ ᴍᴇ ᴀᴅᴍɪɴ ɪɴ ᴛʜᴀᴛ ᴄʜᴀɴɴᴇʟ, 
 
 i ɴᴏᴛ ꜱᴛᴏʀᴇ ᴀɴʏ ꜰɪʟᴇꜱ ᴏʀ ᴛᴇxᴛ ɪɴ  ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ.
 
-ᴅᴍ ꜰᴏʀ ᴀɴʏ Qᴜᴇʀʏ @heartless_b 🤖""" )
+ᴅᴍ ꜰᴏʀ ᴀɴʏ Qᴜᴇʀʏ @heartlesssn 🤖""" )
     ABOUT_WATCH_TEXT = """
 ʜᴇʏ ʙᴜᴅᴅʏ, 
 
@@ -108,7 +108,7 @@ https://terabox.com/s/1QZGvLaoU_VMaSCDT2NNvOQ
 
 ᴀɢᴀʀ ʙᴏᴛ ᴀᴅᴍɪɴ ᴀᴘᴋᴀ ʀᴇQᴜᴇꜱᴛ ᴀᴄᴄᴇᴘᴛ ɴʜɪ ᴋᴀʀ ʀᴀʜᴇ ʜᴀɪɴ ᴛᴏ ᴜɴʜᴇ ᴘᴇʀꜱᴏɴᴀʟ ᴍꜱɢ ᴋᴀʀᴇɴ.
 
-👉 @heartless_b
+👉 @heartlesssn
 
 """
 
