@@ -36,8 +36,8 @@ async def dbgive_access_handler(c:Client,query: CallbackQuery):
         except Exception as e:
             print(e)
 
-        await query.edit_message_text("Database Channel Verified. Make sure you have joined the channel")
-        return await c.send_message(from_user, f"Your channel {db_channel} has been verified. @PostSearchBot will search posts from your Database channel in your group")
+        await query.edit_message_text("ᴅᴀᴛᴀʙᴀꜱᴇ ᴄʜᴀɴɴᴇʟ ᴠᴇʀɪꜰɪᴇᴅ. ᴍᴀᴋᴇ ꜱᴜʀᴇ ʏᴏᴜ ʜᴀᴠᴇ ᴊᴏɪɴᴇᴅ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ")
+        return await c.send_message(from_user, f"​🇾​​🇴​​🇺​​🇷​ ​🇨​​🇭​​🇦​​🇳​​🇳​​🇪​​🇱​ {db_channel} ʜᴀꜱ ʙᴇᴇɴ ᴠᴇʀɪꜰɪᴇᴅ. ʙᴏᴛ ᴡɪʟʟ ꜱᴇᴀʀᴄʜ ᴘᴏꜱᴛꜱ ꜰʀᴏᴍ ʏᴏᴜʀ ᴅᴀᴛᴀʙᴀꜱᴇ ᴄʜᴀɴɴᴇʟ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ")
     except Exception as e:
         print(e)
 
@@ -46,7 +46,7 @@ async def dbdeny_access_handler(c:Client,query: CallbackQuery):
     from_user = int(query.data.split("#")[1])
     db_channel = int(query.data.split("#")[2])
     await query.edit_message_text("Database Channel has been rejected successfully")
-    return await c.send_message(from_user, f"Your request for channel [`{db_channel}`] has been rejected by Bot Owner Please Contact admin For More Information")
+    return await c.send_message(from_user, f"ʏᴏᴜʀ ʀᴇQᴜᴇꜱᴛ ꜰᴏʀ ᴄʜᴀɴɴᴇʟ [`{db_channel}`] ʜᴀꜱ ʙᴇᴇɴ ʀᴇᴊᴇᴄᴛᴇᴅ ʙʏ ʙᴏᴛ ᴏᴡɴᴇʀ ᴘʟᴇᴀꜱᴇ ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ")
 
 
 @Client.on_callback_query(filters.regex(r"^deny_access"))
@@ -56,7 +56,7 @@ async def deny_access_handler(c:Client,query: CallbackQuery):
     user = await db.get_group(str(group_id))
     await db.update_group(str(group_id), {"has_access": False})
     await query.edit_message_text("Group has been rejected successfully")
-    return await c.send_message(from_user, "Your request has been rejected by Admin to add your own db channel")
+    return await c.send_message(from_user, "ʏᴏᴜʀ ʀᴇQᴜᴇꜱᴛ ʜᴀꜱ ʙᴇᴇɴ ʀᴇᴊᴇᴄᴛᴇᴅ ʙʏ ᴀᴅᴍɪɴ ᴛᴏ ᴀᴅᴅ ʏᴏᴜʀ ᴏᴡɴ ᴅʙ ᴄʜᴀɴɴᴇʟ")
 
 
 @Client.on_callback_query(filters.regex(r"^request_access"))
@@ -98,11 +98,11 @@ async def button(bot, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
+            InlineKeyboardButton('⇋ 🇦​​🇩​​🇩​ ​🇲​​🇪​ ​🇹​​🇴​ ​🇾​​🇴​​🇺​​🇷​ ​🇬​​🇷​​🇴​​🇺​​🇵​​🇸​ ⇌', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
             ],
                     [
-                        InlineKeyboardButton("Home", callback_data="gohome"),
-                        InlineKeyboardButton("Help", callback_data="Help_msg")
+                        InlineKeyboardButton("◁ ʜᴏᴍᴇ", callback_data="gohome"),
+                        InlineKeyboardButton("ʜᴇʟᴘ ▷", callback_data="Help_msg")
                     ]
                 ]
             ),
@@ -115,7 +115,7 @@ async def button(bot, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
+            InlineKeyboardButton('⇋ 🇦​​🇩​​🇩​ ​🇲​​🇪​ ​🇹​​🇴​ ​🇾​​🇴​​🇺​​🇷​ ​🇬​​🇷​​🇴​​🇺​​🇵​​🇸​ ⇌', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
             ], 
                                         [
                         InlineKeyboardButton("How To Watch?", callback_data="Watch_msg"),
@@ -132,11 +132,11 @@ async def button(bot, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                                        [
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
+            InlineKeyboardButton('⇋ 🇦​​🇩​​🇩​ ​🇲​​🇪​ ​🇹​​🇴​ ​🇾​​🇴​​🇺​​🇷​ ​🇬​​🇷​​🇴​​🇺​​🇵​​🇸​ ⇌', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
             ],
                     [
-                        InlineKeyboardButton("About", callback_data="About_msg"),
-                        InlineKeyboardButton("Help", callback_data="Help_msg")
+                        InlineKeyboardButton("◁ ᴀʙᴏᴜᴛ", callback_data="About_msg"),
+                        InlineKeyboardButton("ʜᴇʟᴘ ▷", callback_data="Help_msg")
                     ]
                 ]
             ),
@@ -149,7 +149,7 @@ async def button(bot, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
+            InlineKeyboardButton('⇋ 🇦​​🇩​​🇩​ ​🇲​​🇪​ ​🇹​​🇴​ ​🇾​​🇴​​🇺​​🇷​ ​🇬​​🇷​​🇴​​🇺​​🇵​​🇸​ ⇌', url=f'http://t.me/{Config.BOT_USERNAME}?startgroup=true')
             ], 
                                         [
                         InlineKeyboardButton("Mdisk", callback_data="Mdisk_msg"),
