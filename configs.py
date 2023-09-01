@@ -12,7 +12,7 @@ class Config(object):
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001654168053")) 
     BOT_USERNAME = os.getenv("BOT_USERNAME", "GraphsearchBot")
-    BOT_OWNER = int(os.getenv("BOT_OWNER", "6133992240"))
+    BOT_OWNER = int(os.getenv("BOT_OWNER", "6249148586"))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "heartlesssn")
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "Crazybotz")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
